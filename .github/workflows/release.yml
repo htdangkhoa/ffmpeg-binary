@@ -15,3 +15,13 @@ jobs:
         run: |
           chmod +x ./index.sh
           sh ./index.sh
+
+      - name: "Create release"
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            ffmpeg/darwin/ffmpeg
+            ffmpeg/windows-x86/ffmpeg.exe
+            ffmpeg/windows-x64/ffmpeg.exe
+
