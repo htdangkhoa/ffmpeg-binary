@@ -28,7 +28,7 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            "./bin/ffmpeg-darwin"
-            "./bin/ffmpeg-windows-x86.exe"
-            "./bin/ffmpeg-windows-x64.exe"
+            bin/ffmpeg-darwin
+            bin/ffmpeg-windows-x86.exe
+            bin/ffmpeg-windows-x64.exe
 
