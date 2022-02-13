@@ -1,7 +1,7 @@
 mkdir -p ffmpeg
 
 download () {
-	curl -L $1 -o $2
+	curl -L -# --compressed -A 'https://github.com/htdangkhoa/ffmpeg-binary script' -o $2 $1
 }
 
 # echo 'darwin'
