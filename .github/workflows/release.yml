@@ -1,0 +1,17 @@
+on:
+  push:
+    tags:
+      - "v*"
+
+name: Release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: "Download binaries"
+        run: |
+          chmod +x ./index.sh
+          sh ./index.sh
