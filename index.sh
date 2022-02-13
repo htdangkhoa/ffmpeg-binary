@@ -11,33 +11,33 @@ echo '  extracting'
 mkdir -p ffmpeg/darwin
 unzip -o -d ffmpeg/darwin -j darwin.zip ffmpeg
 
-echo 'linux ia32'
-echo '  downloading from johnvansickle.com'
-download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz' linux-ia32.tar.xz
-echo '  extracting'
-mkdir -p ffmpeg/linux-ia32
-tar -xf linux-ia32.tar.xz -C ffmpeg/linux-ia32 --strip-components=1
+# echo 'linux ia32'
+# echo '  downloading from johnvansickle.com'
+# download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz' linux-ia32.tar.xz
+# echo '  extracting'
+# mkdir -p ffmpeg/linux-ia32
+# tar -xf linux-ia32.tar.xz -C ffmpeg/linux-ia32 --strip-components=1
 
-echo 'linux x64'
-echo '  downloading from johnvansickle.com'
-download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz' linux-x64.tar.xz
-echo '  extracting'
-mkdir -p ffmpeg/linux-x64
-tar -xf linux-x64.tar.xz -C ffmpeg/linux-x64 --strip-components=1
+# echo 'linux x64'
+# echo '  downloading from johnvansickle.com'
+# download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz' linux-x64.tar.xz
+# echo '  extracting'
+# mkdir -p ffmpeg/linux-x64
+# tar -xf linux-x64.tar.xz -C ffmpeg/linux-x64 --strip-components=1
 
-echo 'linux arm'
-echo '  downloading from johnvansickle.com'
-download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-armhf-static.tar.xz' linux-arm.tar.xz
-echo '  extracting'
-mkdir -p ffmpeg/linux-arm
-tar -xf linux-arm.tar.xz -C ffmpeg/linux-arm --strip-components=1
+# echo 'linux arm'
+# echo '  downloading from johnvansickle.com'
+# download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-armhf-static.tar.xz' linux-arm.tar.xz
+# echo '  extracting'
+# mkdir -p ffmpeg/linux-arm
+# tar -xf linux-arm.tar.xz -C ffmpeg/linux-arm --strip-components=1
 
-echo 'linux arm64'
-echo '  downloading from johnvansickle.com'
-download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.xz' linux-arm64.tar.xz
-echo '  extracting'
-mkdir -p ffmpeg/linux-arm64
-tar -xf linux-arm64.tar.xz -C ffmpeg/linux-arm64 --strip-components=1
+# echo 'linux arm64'
+# echo '  downloading from johnvansickle.com'
+# download 'https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.xz' linux-arm64.tar.xz
+# echo '  extracting'
+# mkdir -p ffmpeg/linux-arm64
+# tar -xf linux-arm64.tar.xz -C ffmpeg/linux-arm64 --strip-components=1
 
 echo 'windows x86'
 echo '  downloading from github.com'
