@@ -1,0 +1,15 @@
+{
+  "name": "ffmpeg-binary",
+  "version": "5.0",
+  "main": "index.js",
+  "repository": "https://github.com/htdangkhoa/ffmpeg-binary.git",
+  "author": "Khoa Huynh Tran Dang <khoa.htd@amanotes.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "node install.js"
+  },
+  "files": [
+    "index.js",
+    "install.js"
+  ]
+}
